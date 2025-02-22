@@ -1,0 +1,1 @@
+# Cálculos de Concavidade e Pontos de Inflexão para Esboço de Gráficos

@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Definição de Antiderivadas e Integrais Indefinidas; Definição de Integral Definida; Teorema Fundamental do Cálculo; Técnicas de Integração: Integração por Substituição, Integração por Partes; Aplicações. 
+        Definição de Antiderivadas e Integrais Indefinidas; Definição de Integral Definida; Teorema Fundamental do Cálculo; Técnicas de Integração: Integração por Substituição, Integração por Partes; Aplicações da Integração. 
       </>
     ),
   },
