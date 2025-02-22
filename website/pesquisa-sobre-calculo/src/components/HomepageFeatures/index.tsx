@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Limites, Derivadas e Técnicas de Derivação',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Limites e Continuidade; Definição de Derivada; Técnicas de Derivação; Aplicações: Cálulo de Taxas de Relação, Cálculo de Máximos e Mínimos (otimização); Cálculos de Concavidade e Pontos de Inflexão para Esboço de Gráficos; Teorema do Valor Médio; Aproximações Lineares e Diferenciais; Regra de L'Hôpital; Séries de Taylor e Maclaurin; Análise de Comportamento de Funções; Derivadas parciais; Gradiente e Derivada Direcional.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Integrais e Técnicas de Integração',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Definição de Antiderivadas e Integrais Indefinidas; Definição de Integral Definida; Teorema Fundamental do Cálculo; Técnicas de Integração: Integração por Substituição, Integração por Partes; Aplicações. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Equações Diferenciais',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Equações Diferenciais Ordinárias; Solução de Equações Diferenciais Simples.
       </>
     ),
   },
