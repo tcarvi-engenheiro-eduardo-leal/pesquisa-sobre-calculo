@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Limites e Continuidade; Definição de Derivada; Técnicas de Derivação; Aplicações: Cálulo de Taxas de Relação, Cálculo de Máximos e Mínimos (otimização); Cálculos de Concavidade e Pontos de Inflexão para Esboço de Gráficos; Teorema do Valor Médio; Aproximações Lineares e Diferenciais; Regra de L'Hôpital; Séries de Taylor e Maclaurin; Análise de Comportamento de Funções; Derivadas parciais; Gradiente e Derivada Direcional.
+        Limites e Continuidade; Definição de Derivada; Técnicas de Derivação; Aplicações: Cálulo de Taxas de Variação, Cálculo de Máximos e Mínimos (otimização); Cálculos de Concavidade e Pontos de Inflexão para Esboço de Gráficos; Teorema do Valor Médio; Aproximações Lineares e Diferenciais; Regra de L'Hôpital; Séries de Taylor e Maclaurin; Análise de Comportamento de Funções; Derivadas Parciais; Gradiente e Derivada Direcional.
       </>
     ),
   },

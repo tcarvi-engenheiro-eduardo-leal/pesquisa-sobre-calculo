@@ -96,7 +96,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/limites-derivadas-e-tecnicas-de-derivacao/limites-e-continuidade',
             },
           ],
         },
