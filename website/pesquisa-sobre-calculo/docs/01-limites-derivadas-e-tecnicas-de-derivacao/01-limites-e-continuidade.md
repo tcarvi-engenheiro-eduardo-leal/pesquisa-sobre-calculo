@@ -1,25 +1,29 @@
 # Limites e Continuidade
 
-Claro! O tópico de **Limites e Continuidade** é fundamental no estudo do cálculo diferencial e integral, pois estabelece as bases para a compreensão de conceitos mais avançados, como derivadas e integrais. Vamos explorar esses conceitos em detalhes:
+## Limites
 
-### 1. **Limites**
-
-#### Definição Intuitiva
-O limite de uma função descreve o comportamento dessa função à medida que a variável independente se aproxima de um determinado valor. Matematicamente, escrevemos:
-
-\[
+#### Definição Intuitiva do Limite (L)
+- Sendo $ f \text{ uma funcão } f(x) = y $.
+- O Limite (L) representa:
+  - Um valor existente da variável dependente $ y $ nomeada como $ L $, pertencente ao conjunto imagem desta função.
+  - Um valor numérico que pode se localizar no infinito ou em um conjunto finito.
+- O Limite (L) pode ser descrito matematicamente como:
+  - $ \exists L \in Im(f) $ 
+- O limite de uma função indica o valor pertencente à imagem da função que se tende a obter à medida que a variável independente $ x $ se aproxima de um determinado valor.
+- Matematicamente, definimos o Limite com a expressão:
+$$
 \lim_{{x \to a}} f(x) = L
-\]
+$$
 
-Isso significa que, à medida que \( x \) se aproxima de \( a \), \( f(x) \) se aproxima de \( L \).
 
-#### Definição Formal (Épsilon-Delta)
-A definição formal de limite é mais precisa e é dada em termos de \( \epsilon \) (épsilon) e \( \delta \) (delta):
+#### Definição Formal de Limites
+- A definição mais precisa de limites é dada em termos de $ \epsilon $ (épsilon) e $ \delta $ (delta):
 
-\[
+$$
 \lim_{{x \to a}} f(x) = L \quad \text{se, para todo } \epsilon > 0, \text{ existe um } \delta > 0 \text{ tal que se } 0 < |x - a| < \delta, \text{ então } |f(x) - L| < \epsilon.
-\]
+$$
 
+<!-- 
 #### Propriedades dos Limites
 - **Limite de uma Constante:** \( \lim_{{x \to a}} c = c \)
 - **Limite da Soma:** \( \lim_{{x \to a}} [f(x) + g(x)] = \lim_{{x \to a}} f(x) + \lim_{{x \to a}} g(x) \)
@@ -78,4 +82,4 @@ Se qualquer uma dessas condições não for atendida, a função é descontínua
    - A função \( f(x) = \frac{1}{x} \) é descontínua em \( x = 0 \).
 
 ### Conclusão
-O estudo de limites e continuidade é essencial para o cálculo diferencial e integral, fornecendo as ferramentas necessárias para analisar o comportamento de funções e entender conceitos mais avançados. Dominar esses tópicos é crucial para o sucesso em cursos de cálculo e suas aplicações em diversas áreas da ciência e engenharia.
+O estudo de limites e continuidade é essencial para o cálculo diferencial e integral, fornecendo as ferramentas necessárias para analisar o comportamento de funções e entender conceitos mais avançados. Dominar esses tópicos é crucial para o sucesso em cursos de cálculo e suas aplicações em diversas áreas da ciência e engenharia. -->
