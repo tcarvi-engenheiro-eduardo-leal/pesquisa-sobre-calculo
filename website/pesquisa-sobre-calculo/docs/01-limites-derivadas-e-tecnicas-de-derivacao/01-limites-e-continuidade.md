@@ -2,21 +2,40 @@
 
 ## Limites
 
-#### Definição Intuitiva do Limite (L)
+### Definição Intuitiva do Limite (L)
 - Sendo $ f \text{ uma funcão } f(x) = y $.
+  - $ f $ uma função.
+  - $ y $ a variável dependente desta função.
+  - $ x $ a variável independente desta função.
+  - $ D(x) $ o conjunto domínio da função $ f $.
+  - $ Im(f) $ o conjunto imagem da função $ f $.
+  - $ CD(f) $ o conjunto contra-domínio da função $ f $s.
 - O Limite (L) representa:
-  - Um valor nomeado como $ L $, pertencente ao Contra-Domínio da função.
+  - Um valor pertencente ao Contra-Domínio da função.
     - Não necessariamente o $ L $ pertence ao conjunto imagem da função. 
-    - Se a função não for contínua no ponto $ L $, o valor da abscissa $ L $ não pertencerá ao conjunto Imagem da função.
+    - Se a função não for contínua no ponto $ L $, o valor da abscissa de $ L $ não pertencerá ao conjunto Imagem da função.
   - Um valor numérico que pode se localizar no infinito ou em um conjunto finito.
 - O Limite (L) pode ser descrito matematicamente como:
   - $ \exists L \in CD(f) $ 
-- O limite de uma função indica o valor pertencente ao Contra Domínio da função que se tende a obter à medida que a variável independente $ x $ se aproxima de um determinado valor, tanto pela esquerda quanto pela direita.
+- O limite de uma função indica o valor pertencente ao Contra-Domínio da função que se tende a obter à medida que a variável independente $ x $ se aproxima de um determinado valor, tanto pela esquerda quanto pela direita.
 - Matematicamente, definimos o Limite com a expressão:
 $$
 \lim_{{x \to a}} f(x) = L
 $$
 
+### Processo para Encontrar o Limite L
+1. Representar matematicamente o símbolo do limite:
+$$
+\lim_{{x \to a}} f(x) = L
+$$
+2. Tentar substituir o valor de x por a, em f(x).
+  - Se um valor for encontrado, este será o Limite da função.
+  - Se um valor não for encontrado, devido indeterminação matemática, deve-se verificar se a função pode ser manipulada, para não ter descontinuidade e para não gerar indeterminação matemática.
+    - Técnica de Briot-Ruffini pode ser usada para se excluir fator polinomial que gera indeterminação matemática.
+    - Técnica de Multiplicação pelo Conjugado pode ser usada para se alterar os fatores dos polinômios, com o objeitvo de se excluir o fator que gera indeterminação matemática.
+    - Depois da exclusão, deve-se substituir o valor de x por a e encontrar o limite L da função.
+3. Os limites laterais pela esquerda e pela direita devem ser iguais a L.
+  - Se sim, L é o valor do Limite da Função, quando x tende para a.
 
 #### Definição Formal de Limites
 - A definição mais precisa de limites é dada em termos de $ \epsilon $ (épsilon) e $ \delta $ (delta):
