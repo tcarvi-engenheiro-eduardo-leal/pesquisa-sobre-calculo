@@ -5,11 +5,13 @@
 #### Definição Intuitiva do Limite (L)
 - Sendo $ f \text{ uma funcão } f(x) = y $.
 - O Limite (L) representa:
-  - Um valor existente da variável dependente $ y $ nomeada como $ L $, pertencente ao conjunto imagem desta função.
+  - Um valor nomeado como $ L $, pertencente ao Contra-Domínio da função.
+    - Não necessariamente o $ L $ pertence ao conjunto imagem da função. 
+    - Se a função não for contínua no ponto $ L $, o valor da abscissa $ L $ não pertencerá ao conjunto Imagem da função.
   - Um valor numérico que pode se localizar no infinito ou em um conjunto finito.
 - O Limite (L) pode ser descrito matematicamente como:
-  - $ \exists L \in Im(f) $ 
-- O limite de uma função indica o valor pertencente à imagem da função que se tende a obter à medida que a variável independente $ x $ se aproxima de um determinado valor.
+  - $ \exists L \in CD(f) $ 
+- O limite de uma função indica o valor pertencente ao Contra Domínio da função que se tende a obter à medida que a variável independente $ x $ se aproxima de um determinado valor, tanto pela esquerda quanto pela direita.
 - Matematicamente, definimos o Limite com a expressão:
 $$
 \lim_{{x \to a}} f(x) = L
